@@ -1,0 +1,32 @@
+{
+  "name": "pretty-xml-textconv",
+  "version": "0.1.0",
+  "description": "Transforming xml to pretty form in command prompt.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo No tests!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insysbio/pretty-xml-textconv.git"
+  },
+  "keywords": [
+    "xml",
+    "cli",
+    "git",
+    "textconv"
+  ],
+  "author": "Evgeny Metelkin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/insysbio/pretty-xml-textconv/issues"
+  },
+  "homepage": "https://github.com/insysbio/pretty-xml-textconv",
+  "dependencies": {
+    "pretty-data": "^0.40.0"
+  },
+  "engine": {
+    "node": ">=0.4.9"
+  }
+}
