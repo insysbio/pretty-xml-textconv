@@ -17,11 +17,11 @@ pretty-xml-textconv file.xml >> out.txt
 
 ## Usage for git
 
-For implementation in all git repositories use
+For implementation in all git repositories use:
 ```shell
 git config --global diff.xml.textconv pretty-xml-textconv
 ```
-In particular project include lines in .gitattributes
+In particular project include lines in .gitattributes:
 ```
 *.xml diff=xml
 ```
